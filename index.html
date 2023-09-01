@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChapaMovies</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="./src/js/main.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>ChapaMovies</h1>
+
+        <div class="search">
+          <label class="sr-only" for="searchInput"
+            >Digite um filme ou série para adicionar a lista de desejos</label
+          >
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Digite um filme ou série"
+          />
+          <button>&plus;</button>
+        </div>
+      </header>
+
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Filme/Série</th>
+            <th>Lançamento</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+                alt=""
+              />
+            </td>
+            <td>Titanic</td>
+            <td>1997</td>
+            <td>
+              <button class="ph ph-trash"></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <script></script>
+    </div>
+  </body>
+</html>
